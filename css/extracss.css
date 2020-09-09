@@ -1,0 +1,503 @@
+﻿/*media Queries*/
+
+
+/* for medium screen */
+
+@media (min-width:992px) and (max-width:1199px) {
+    .box {
+        padding: 5% 17px !important;
+    }
+}
+
+
+/* for small screen */
+
+@media (min-width:768px) and (max-width:991px) {
+    .maincon {
+        margin-top: -40% !important;
+    }
+    h2 {
+        font-size: 18px !important;
+    }
+        h3{
+        font-size:16px !important;
+    }
+    p {
+        font-size: 12px !important;
+    }
+    .box img {
+        width: 30px !important;
+    }
+    .nm {
+        font-size: 14px !important;
+    }
+    .content i {
+
+        top: 15% !important;
+        font-size: 20px !important;
+    }
+    .box {
+        padding: 5% 20px !important;
+    }
+
+}
+
+
+
+/* for mobile screen */
+
+@media (min-width:300px) and (max-width:767px) {
+
+
+    .det {
+        
+        line-height: 30px !important;
+        text-align: center;
+    }
+
+
+    .btn-isuzu, .btn-isuzu:hover{
+        margin:3% !important;
+    }
+
+    .content i {
+  
+        top: 2% !important;
+        left: -7% !important;
+        font-size: 25px !important;
+    }
+
+    .gallery img {
+        margin-top: 20px;
+    }
+
+
+    .maincon {
+      
+        margin-top: -90% !important;
+        padding: 0px 10% !important;
+    }
+
+    .box {
+        border-right: none !important;
+        padding: 10% 5px !important;
+    }
+
+
+    .carousel-indicators {
+        bottom: -40px !important;
+    }
+
+}
+
+
+/* general CSS */
+
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color:whitesmoke;
+}
+
+.pad {
+    padding: 0px;
+}
+
+.cen {
+    text-align: center;
+}
+
+.navbar-inverse {
+    background: rgba(0,0,0,0.3);
+    border-color: transparent;
+    margin: 0px;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+}
+
+.btn-isuzu, .btn-isuzu:hover {
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+    border-radius: 0px;
+    padding: 5px 30px;
+}
+
+
+.det {
+    color: white;
+    line-height: 70px;
+}
+.det table{
+    float:right;
+}
+
+    .det td, th {
+        padding: 0px 20px;
+    }
+
+
+.navbar-nav {
+    float: right;
+    margin-bottom: 20px;
+}
+.navbar {
+    border-radius: 0px;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+    color: #fff;
+    background-color: transparent;
+    border-radius: 0px;
+    border-bottom: 2px solid white;
+}
+
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover {
+    color: #fff;
+    background-color: #0f4693;
+}
+
+
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+    padding: 5px 15px;
+    margin-left: 20px;
+}
+
+
+    .navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+        color: #fff;
+        background-color: transparent;
+        border-radius: 0px;
+        border-bottom: 2px solid white;
+    }
+
+
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #454548;
+}
+
+
+.dropdown-menu {
+    left: 18px;
+}
+.content {
+    background-color: white;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+p {
+    margin: 0 0 10px;
+    font-size: 18px;
+    text-align: justify;
+    font-weight: 100;
+}
+
+.content i {
+    position: absolute;
+    top: 12%;
+    left: -10%;
+    font-size: 30px;
+}
+
+.hed {
+    border-bottom: 2px solid #060606;
+    color: black;
+    padding: 10px;
+}
+
+.box {
+    border-right: 1px solid #e2e2e2;
+    padding: 5% 30px;
+}
+
+.box img{
+    width:50px;
+}
+
+.nm {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.maincon {
+
+    position: relative;
+    margin-top: -17%;
+    padding: 0px 1%;
+    
+}
+
+.carousel-indicators li {
+    background-color: rgb(243, 156, 18);
+    border: 1px solid #c18b31;
+}
+
+.carousel-indicators {
+    bottom: -55px;
+    
+}
+
+.numb {
+    background-color: black;
+    padding: 5% 0px;
+    margin-top:5%;
+}
+
+
+.num{
+    text-align:center;
+    color:forestgreen;
+}
+
+
+.nam{
+    color:white;
+    text-align:center;
+}
+
+.gallery img{
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.gallery img:hover{
+    box-shadow: 8px 8px 35px #3f3f3f;
+    transform: scale(1.05,1.05);
+}
+
+.box h3{
+        color: #8ba7be;
+}
+
+.bg-img {
+    position: relative;
+    width: 100%;
+    height: 355px;
+    background: url('../images/footer.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+    .bg-img:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba(255,255,255,0.5);
+        opacity: 1;
+    }
+
+
+.foot {
+    color: black;
+    text-align: center;
+    position: absolute;
+    z-index: 9999;
+    margin-top: 5%;
+}
+
+
+.foot i {
+    font-size: 30px;
+}
+
+ /*i.fa-angle-double-up:hover {
+    transition: margin-top 0.5s;
+    margin-top: -10px;
+}*/
+i.fa-angle-double-up:hover {
+    transition: top 0.5s;
+    position: relative;
+    top: -10px;
+}
+
+
+
+
+
+
+/*  carousel  css  */
+.carousel-fade .carousel-inner .item {
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+}
+
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    opacity: 0;
+}
+
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+}
+
+    .carousel-fade .carousel-inner .next,
+    .carousel-fade .carousel-inner .prev,
+    .carousel-fade .carousel-inner .active.left,
+    .carousel-fade .carousel-inner .active.right {
+        left: 0;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+
+.carousel-fade .carousel-control {
+    z-index: 2;
+}
+
+/*
+Fade content bs-carousel with hero headers
+Code snippet by maridlcrmn (Follow me on Twitter @maridlcrmn) for Bootsnipp.com
+Image credits: unsplash.com
+*/
+
+/********************************/
+/*       Fade Bs-carousel       */
+/********************************/
+.fade-carousel {
+    position: relative;
+    height: 100vh;
+}
+
+    .fade-carousel .carousel-inner .item {
+        height: 100vh;
+    }
+
+    .fade-carousel .carousel-indicators > li {
+        margin: 0 2px;
+        background-color: #f39c12;
+        border-color: #f39c12;
+        opacity: .7;
+    }
+
+        .fade-carousel .carousel-indicators > li.active {
+            width: 10px;
+            height: 10px;
+            opacity: 1;
+        }
+
+/********************************/
+/*          Hero Headers        */
+/********************************/
+.hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+    -webkit-transform: translate3d(-50%,-50%,0);
+    -moz-transform: translate3d(-50%,-50%,0);
+    -ms-transform: translate3d(-50%,-50%,0);
+    -o-transform: translate3d(-50%,-50%,0);
+    transform: translate3d(-50%,-50%,0);
+}
+
+    .hero h1 {
+        font-size: 6em;
+        font-weight: bold;
+        margin: 0;
+        padding: 0;
+    }
+
+.fade-carousel .carousel-inner .item .hero {
+    opacity: 0;
+    -webkit-transition: 2s all ease-in-out .1s;
+    -moz-transition: 2s all ease-in-out .1s;
+    -ms-transition: 2s all ease-in-out .1s;
+    -o-transition: 2s all ease-in-out .1s;
+    transition: 2s all ease-in-out .1s;
+}
+
+.fade-carousel .carousel-inner .item.active .hero {
+    opacity: 1;
+    -webkit-transition: 2s all ease-in-out .1s;
+    -moz-transition: 2s all ease-in-out .1s;
+    -ms-transition: 2s all ease-in-out .1s;
+    -o-transition: 2s all ease-in-out .1s;
+    transition: 2s all ease-in-out .1s;
+}
+
+/********************************/
+/*            Overlay           */
+/********************************/
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: #252525;
+    opacity: 0.5;
+}
+
+/********************************/
+/*          Custom Buttons      */
+/********************************/
+.btn.btn-lg {
+    padding: 10px 40px;
+}
+
+.btn.btn-hero,
+.btn.btn-hero:hover,
+.btn.btn-hero:focus {
+    color: #f5f5f5;
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+    outline: none;
+    margin: 20px auto;
+}
+
+/********************************/
+/*       Slides backgrounds     */
+/********************************/
+.fade-carousel .slides .slide-1,
+.fade-carousel .slides .slide-2,
+.fade-carousel .slides .slide-3 {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.fade-carousel .slides .slide-1 {
+  
+    background-image: url('../images/pic1.jpg');
+}
+
+.fade-carousel .slides .slide-2 {
+    background-image: url('../images/pic2.jpg');
+}
+
+.fade-carousel .slides .slide-3 {
+    background-image: url('../images/pic3.jpg');
+}
+
+/********************************/
+/*          Media Queries       */
+/********************************/
+@media screen and (min-width: 980px) {
+    .hero {
+        width: 980px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .hero h1 {
+        font-size: 4em;
+    }
+}
